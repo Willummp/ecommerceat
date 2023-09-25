@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Placa de Vídeo NVIDIA GeForce RTX 3080",
+      "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/210818/Placa-de-V-deo-Palit-NVIDIA-GeForce-RTX-3080-Gamingpro-10GB-GDDR6X-NED3080019IA-132AA_1694019542_gg.jpg",
+      "description": "Descrição resumida da Placa de Vídeo NVIDIA GeForce RTX 3080",
+      "specifications": "Placa traseira toda em metal pré-instalada - Construído para EVGA Precision X1- 2nd Gen Ray Tracing Cores-3rd Gen Tensor Cores- PCI Express Gen 4-Microsoft DirectX 12 Ultimate-GDDR6X Graphics Memory-NVIDIA DLSS-NVIDIA GeForce Experience-NVIDIA G-SYNC-NVIDIA GPU Boost-Drivers prontos para jogos- Vulkan RT API",
+      "seller": {
+        "name": "João Silva",
+        "phone": "123-456-7890",
+        "email": "joao.silva@example.com",
+        "rating": 4.5
+      },
+      "comments": [
+        {
+          "user": "Maria Santos",
+          "date": "2023-09-22",
+          "comment": "Ótimo produto!",
+          "rating": 5
+        },
+        {
+          "user": "Pedro Oliveira",
+          "date": "2023-09-23",
+          "comment": "Produto de qualidade.",
+          "rating": 4
+        }
+      ],
+      "questions": [
+        {
+          "user": "Maria Santos",
+          "date": "2023-09-22",
+          "question": "Qual o prazo de entrega?",
+          "answer": "O prazo de entrega é de 7 dias úteis."
+        },
+        {
+          "user": "Pedro Oliveira",
+          "date": "2023-09-23",
+          "question": "O produto vem com garantia?",
+          "answer": "Sim, oferecemos garantia de 1 ano."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Processador AMD Ryzen 9 5900X",
+      "image": "https://example.com/produto2.jpg",
+      "description": "Descrição resumida do Processador AMD Ryzen 9 5900X",
+      "specifications": "Especificações detalhadas do Processador AMD Ryzen 9 5900X",
+      "seller": {
+        "name": "Ana Pereira",
+        "phone": "987-654-3210",
+        "email": "ana.pereira@example.com",
+        "rating": 4.2
+      },
+      "comments": [
+        {
+          "user": "Carlos Fernandes",
+          "date": "2023-09-25",
+          "comment": "Bom custo-benefício.",
+          "rating": 4
+        }
+      ],
+      "questions": [
+        {
+          "user": "Carlos Fernandes",
+          "date": "2023-09-25",
+          "question": "Este produto está disponível em outras cores?",
+          "answer": "Sim, temos várias opções de cores disponíveis."
+        }
+      ]
+    }
+  ]
+}
