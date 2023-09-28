@@ -1,4 +1,3 @@
-// SellerInfoScreen.js
 import React from 'react';
 import { View, Text } from 'react-native';
 
@@ -11,7 +10,6 @@ function ProductSeller({ route }) {
       <Text>Telefone: {seller.phone}</Text>
       <Text>Email: {seller.email}</Text>
       <Text>Nota: {seller.rating}</Text>
-      {/* Outras informações do vendedor */}
     </View>
   );
 }

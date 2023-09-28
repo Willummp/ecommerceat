@@ -1,21 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, Image, TouchableOpacity, ActivityIndicator } from 'react-native';
 
-// Importe os dados do JSON
-import jsonData from '../../../data.json'; // Substitua 'dados.json' pelo caminho real do seu JSON
+// Importando  os dados do JSON
+import jsonData from '../../../data.json'; 
 
 const ProductListScreen = ({ navigation }) => {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Simule uma requisição assíncrona para obter os dados do JSON
     setTimeout(() => {
       setProducts(jsonData.products);
       setIsLoading(false);
-    }, 1000); // Tempo simulado para carregamento
+    }, 1000); 
 
-    // Se você estiver usando uma API real, substitua o código acima pela chamada real à API.
   }, []);
 
   if (isLoading) {
@@ -31,7 +29,7 @@ const ProductListScreen = ({ navigation }) => {
           <TouchableOpacity
             onPress={() => navigation.navigate('ProductDetails', { product: item })}
           >
-            <View>
+            <View style={{backgroundColor: "#a6f4f2", margin: 10, alignItems: "center", padding: 20, borderRadius: 10}}>
               <Image source={{ uri: item.image }} style={{ width: 100, height: 100 }} />
               <Text>{item.name}</Text>
               <Text>{item.description}</Text>
