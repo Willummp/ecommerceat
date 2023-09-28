@@ -1,5 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Ionicons } from '@expo/vector-icons'; // Importe os ícones que você deseja usar
+import { Ionicons } from '@expo/vector-icons'; 
 import ProductSeller from './ProductSeller';
 import ProductComments from './ProductComments';
 import ProductQuestions from './ProductQuestions';

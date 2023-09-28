@@ -27,11 +27,11 @@ function ProductStack({ navigation }) {
         component={ProductDetailsScreen}
         options={{
           title: 'Detalhes do Produto',
-          headerLeft: () => ( // Componente personalizado para o botão de voltar
+          headerLeft: () => ( 
             <Button
-              onPress={() => navigation.navigate("ProductList")} // Navegar para "ProductList"
+              onPress={() => navigation.navigate("ProductList")} 
               title="Voltar"
-              color="#007AFF" // Cor do botão
+              color="#007AFF" 
             />
           ),
         }}
@@ -47,7 +47,6 @@ function App() {
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={Home} />
         <Drawer.Screen name="Produtos" component={ProductStack} />
-        {/* Outras telas do Drawer, se houver */}
       </Drawer.Navigator>
     </NavigationContainer>
   );
